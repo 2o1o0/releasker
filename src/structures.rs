@@ -2,8 +2,6 @@
 extern crate serde_json;
 use serde_derive::{Deserialize, Serialize};
 
-pub type Releases = Vec<Release>;
-
 /// A release.
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Release {
@@ -54,7 +52,7 @@ pub struct Release {
 
     /// Whether to identify the release as a prerelease or a full release.
     #[serde(rename = "prerelease")]
-    prerelease: bool,
+    pub prerelease: bool,
 
     #[serde(rename = "published_at")]
     published_at: Option<String>,

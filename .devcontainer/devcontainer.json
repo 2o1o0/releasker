@@ -28,6 +28,7 @@
         // "jrebocho.vscode-random", // Generates random values
         // "alefragnani.Bookmarks", // Manage bookmarks
         "quicktype.quicktype", // Paste JSON as code
+        "serayuzgur.crates"
         // "spikespaz.vscode-smoothtype", // smooth cursor animation
     ],
     "settings": {
